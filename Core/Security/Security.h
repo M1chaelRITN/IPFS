@@ -32,8 +32,7 @@ private:
 	std::string password_;
 	Crypt crypt_;
 
-	std::vector<std::string> whiteList_ = {}; // "123.123.123.123" «аполнить ip адресами,
-	                                          // которые заранее известны.
+	std::vector<std::string> whiteList_ = {};
 	std::vector<std::string> blackList_;
 
 	bool InWhite(const std::string & ip);
