@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NewInternetService.cpp" />
+    <ClCompile Include="Service\Service.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Os\LinuxDaemon.cpp">
+      <Filter>Service\Os</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Os\ServiceFactory.cpp">
+      <Filter>Service\Os</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Os\WindowsService.cpp">
+      <Filter>Service\Os</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Service">
+      <UniqueIdentifier>{d71c75d7-a430-4bbb-a5ad-df59ab811aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\Os">
+      <UniqueIdentifier>{115ebeb7-9db4-4735-81cd-8395d743e6c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NewInternetService.h" />
+    <ClInclude Include="Service\Service.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Os\LinuxDaemon.h">
+      <Filter>Service\Os</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Os\OsService.h">
+      <Filter>Service\Os</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Os\ServiceFactory.h">
+      <Filter>Service\Os</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Os\WindowsService.h">
+      <Filter>Service\Os</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

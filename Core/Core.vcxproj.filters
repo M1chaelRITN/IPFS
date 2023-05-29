@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Files">
+      <UniqueIdentifier>{163bd384-b906-4e36-b124-77a7db6ec285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{e8de4091-fced-4055-959d-da66580e5699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pack">
+      <UniqueIdentifier>{1a0ccd94-d85f-424c-9e21-9f7bda7b8d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parameters">
+      <UniqueIdentifier>{0a45ff02-00c3-4859-93a1-1a4c40c697be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository">
+      <UniqueIdentifier>{6ecdcfa5-5b8d-47a9-a2ee-cff892b8e2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{08bc86f8-0ae8-4284-9de4-7508889d8f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{79cbc0f0-a13b-4921-b7d7-01030819eccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{1c55fa84-2c17-436a-b37b-2375411c322f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{4504aeb6-5a81-4d19-859f-943ff6506fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{aa1e7952-3523-4a12-a6ca-d74ea9fa4d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\x64">
+      <UniqueIdentifier>{f6315e57-2018-4742-965b-58b0cbc1aa54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Win32">
+      <UniqueIdentifier>{9c2b1a1f-4520-4799-a28e-f73a24e70840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption\timcrypt">
+      <UniqueIdentifier>{fbfff3e8-3a22-41c8-8b04-10f672acb338}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Files\Buffer.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Files\FileSystem.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\INetManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\IpAddress.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\NetAdapter.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\NetManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Socket.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Pack\PackManager.h">
+      <Filter>Pack</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameters\Parameters.h">
+      <Filter>Parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository\Chunk.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository\Repository.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\Security.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository\Unit.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository\FileId.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Repository\Tier.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\StringHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\Base64.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\EncryptedKey.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\Encryption.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_argchk.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_cfg.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_cipher.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_custom.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_hash.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_mac.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_macros.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_math.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_misc.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_pk.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_pkcs.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\tomcrypt\tomcrypt_prng.h">
+      <Filter>Encryption\timcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption\Crypt.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Files\FileSystem.cpp">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\IpAddress.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\NetAdapter.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\NetManager.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Socket.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Pack\PackManager.cpp">
+      <Filter>Pack</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameters\Parameters.cpp">
+      <Filter>Parameters</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository\Repository.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Security\Security.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository\Unit.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository\Chunk.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Repository\Tier.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption\Base64.cpp">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption\EncryptedKey.cpp">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption\Encryption.cpp">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\StringHelper.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption\Crypt.cpp">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\Win32\tomcrypt.lib">
+      <Filter>lib\Win32</Filter>
+    </Library>
+    <Library Include="lib\Win32\tomcrypt_d.lib">
+      <Filter>lib\Win32</Filter>
+    </Library>
+    <Library Include="lib\x64\tomcrypt.lib">
+      <Filter>lib\x64</Filter>
+    </Library>
+    <Library Include="lib\x64\tomcrypt_d.lib">
+      <Filter>lib\x64</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\Win32\tomcrypt.pdb">
+      <Filter>lib\Win32</Filter>
+    </None>
+    <None Include="lib\Win32\tomcrypt_d.pdb">
+      <Filter>lib\Win32</Filter>
+    </None>
+    <None Include="lib\x64\tomcrypt.pdb">
+      <Filter>lib\x64</Filter>
+    </None>
+    <None Include="lib\x64\tomcrypt_d.pdb">
+      <Filter>lib\x64</Filter>
+    </None>
+  </ItemGroup>
+</Project>
